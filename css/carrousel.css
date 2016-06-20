@@ -1,0 +1,28 @@
+
+.carousel-control {
+    opacity: 0;
+}
+
+.carousel-control:hover {
+    opacity: 0;
+}
+
+img.seta1 {
+    margin-right: -15px;
+    margin-top: -15px;
+    position: absolute;
+    top: 47%;
+    left: 3%;
+    width: 3%;
+    cursor: pointer;
+}
+
+img.seta2 {
+    margin-right: -15px;
+    margin-top: -15px;
+    position: absolute;
+    top: 47%;
+    width: 3%;
+    right: 3%;
+    cursor: pointer;
+}

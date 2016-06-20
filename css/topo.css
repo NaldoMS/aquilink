@@ -1,0 +1,117 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+div#menu {
+    width: 100%;
+    position: fixed;
+    z-index: 9999;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f8;
+    height: 130px;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+div#areaDoCliente{
+    display: -webkit-inline-box;
+    margin-right: 3%;
+    padding: 5px 0px;
+    position: absolute;
+    right: 25px;
+    top: 50px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+}
+
+a#logo{
+    display: block;
+    position: absolute;
+    width: 17%;
+    min-width: 180px !important;
+    left: 25px;
+    height: 100%;
+    background: url(../img/logo.png) no-repeat;
+    background-size: 80% auto;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+img#logoImg{
+    width: 100%;
+}
+
+i#off{
+    font-weight: 800;
+    font-size: 20px;
+}
+
+a#cliente{
+    text-decoration: none;
+    color: #535353;
+}
+
+ul{
+    list-style: none;
+}
+
+div#menu nav.menu-central ul li:nth-child(1) span{
+    background-image: url(../img/home.png);
+}
+
+div#menu nav.menu-central ul li:nth-child(2) span{
+    background-image: url(../img/home.png);
+}
+
+div#menu nav.menu-central ul li:nth-child(3) span{
+    background-image: url(../img/home.png);
+}
+
+div#menu nav.menu-central ul li:nth-child(4) span{
+    background-image: url(../img/home.png);
+}
+
+div#menu nav.menu-central ul li:nth-child(5) span{
+    background-image: url(../img/home.png);
+}
+
+div#menu nav.menu-central{
+    text-align: center;
+}
+
+li.linhas{
+    position: relative;
+}
+
+li{
+    display: inline-block;
+    padding-left: 46px;
+}
+
+nav.menu-central ul li a{
+    display: block;
+    height: 130px;
+    padding: 0 13px 0 5px;
+    line-height: 130px;
+    color: #000;
+    text-decoration: none;
+}
+nav.menu-central ul li.linhas span{
+    display: block;
+    width: 47px;
+    height: 47px;
+    position: absolute;
+    left: 0;
+    top: calc(50% - 23px);
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
