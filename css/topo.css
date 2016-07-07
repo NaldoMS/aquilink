@@ -10,10 +10,10 @@ div#menu {
     width: 100%;
     position: fixed;
     z-index: 9999;
-    margin: 0;
+    margin:0;
     padding: 0;
     background-color: transparent;
-    height: 130px;
+    height: 140px;
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
@@ -37,7 +37,7 @@ a#logo{
     display: block;
     position: absolute;
     width: 25%;
-    margin-top: 2%;
+    margin-top: 1%;
     min-width: 180px !important;
     left: 25px;
     height: 100%;
@@ -63,8 +63,194 @@ a#cliente{
     color: #535353;
 }
 
+a#testeVelocidade{
+    text-decoration: none;
+    color: #fff;
+}
+
 ul{
     list-style: none;
+}
+
+div#bloco{
+    background-color: #1A6BAF;
+    margin: 0;
+    padding: 0;
+    height: 640px;
+    display: inline-flex;
+    width: 100%;
+}
+
+div#testeVelocidade{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #fff;
+}
+
+p#acesso{
+    color: #fff;
+    font-size: 30px;
+    margin-top: 20%;
+}
+
+div#opcoes{
+    display: inline-flex;
+}
+
+img#wifi{
+    width: 40%;
+    margin: 3%;
+}
+
+p#teste{
+    font-size: 19px;
+}
+
+img#divisoria{
+    height: 550px;
+    margin-top: 50px;
+}
+
+div.opc {
+    background-color: #fff;
+    width: 20%;
+    margin: 7% 5% 0% 6%;
+    height: 440px;
+}
+
+div#conteudo{
+    text-align: center;
+}
+
+img#assine{
+    display: block;
+    float: none;
+    margin: 0 auto;
+    padding-top: 24%;
+}
+
+p.title{
+    font-size: 30px;
+    color: #1B71B8;
+    padding-top: 5%;
+}
+
+p.texto{
+    width: 90%;
+    position: relative;
+    display: block;
+    font-size: 18px;
+    margin: 0 auto;
+}
+
+button.btn{
+    margin-top: 15%;
+    margin-bottom: 15%;
+    background-color: #1B71B8;
+}
+
+div#bloco2{
+    background: url(../img/testeDeVelocidade.jpg) no-repeat;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    height: 728px;
+}
+
+div.box{
+    display: -webkit-box;
+    width: 340px;
+    margin: 0 auto;
+    padding-bottom: 12%;
+}
+
+div.first{
+    padding-top: 8%;
+}
+
+div.last{
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+a.linkLaranja{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+p.lengenda{
+    width: 180px;
+    padding-left: 10%;
+    padding-top: 26%;
+    font-size: 25px
+}
+
+div#areaLink{
+    margin: 0;
+    padding: 0;
+}
+
+div#bloco3{
+    margin: 0;
+    padding: 0;
+}
+div.conteudo{
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+div.azulF{
+    margin: 0;
+    padding: 0;
+    background-color: #324E74;
+    height: 550px;
+}
+
+div.azulFr{
+    margin: 0;
+    padding: 0;
+    background-color: #365985;
+    height: 550px;
+}
+
+h1{
+    color: #fff;
+}
+
+p.legenda{
+    color: #fff;
+    width: 276px;
+    font-size: 18px;
+    margin: 0 auto;
+    text-align: left
+}
+
+img.imgs{
+    margin: 0 auto;
+    padding-top: 13%;
+}
+
+div#bloco4{
+    background-color: #EDEDED;
+}
+
+h1#title{
+    color: #2B79BB;
+    margin: 0 auto;
+    padding-top: 4%;
+    width: 480px;
+}
+
+img.perfil{
+    border-radius: 100%;
+    width: 150px;
+    height: 150px;
+    position: relative;
+    margin: 0 auto;
+    display: block
 }
 
 div#menu nav.menu-central ul li:nth-child(1) span{
@@ -94,7 +280,6 @@ div#menu nav.menu-central ul li:nth-child(6) span{
 
 div#menu nav.menu-central{
     text-align: center;
-    margin-left: 6%;
 }
 
 li.linhas{
