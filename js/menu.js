@@ -17,3 +17,13 @@
     }
 
 })();
+
+$(function() {
+    $(window).on("scroll", function() {
+        if($(window).scrollTop() > 50) {
+            document.getElementById('menu').style.backgroundColor = '#fff'
+        } else {
+            document.getElementById('menu').style.backgroundColor = 'transparent'
+        }
+    });
+});

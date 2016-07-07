@@ -1,6 +1,9 @@
 *{
     margin:0;
-    padding:0;
+}
+
+main.o-content{
+    display: block;
 }
 
 div#menu {
@@ -17,12 +20,13 @@ div#menu {
     transition: all 0.5s ease;
 }
 
+
 div#areaDoCliente{
     display: -webkit-inline-box;
     margin-right: 3%;
     padding: 5px 0px;
     position: absolute;
-    right: 25px;
+    right: 10px;
     top: 50px;
     -webkit-border-radius: 8px;
     -moz-border-radius: 8px;
@@ -68,23 +72,29 @@ div#menu nav.menu-central ul li:nth-child(1) span{
 }
 
 div#menu nav.menu-central ul li:nth-child(2) span{
-    background-image: url(../img/home.png);
+    background-image: url(../img/empresa.png);
 }
 
 div#menu nav.menu-central ul li:nth-child(3) span{
-    background-image: url(../img/home.png);
+    background-image: url(../img/planos.png);
 }
 
 div#menu nav.menu-central ul li:nth-child(4) span{
-    background-image: url(../img/home.png);
+    background-image: url(../img/cobertura.png);
 }
 
 div#menu nav.menu-central ul li:nth-child(5) span{
-    background-image: url(../img/home.png);
+    background-image: url(../img/assine.png);
 }
+
+div#menu nav.menu-central ul li:nth-child(6) span{
+    background-image: url(../img/contatos.png);
+}
+
 
 div#menu nav.menu-central{
     text-align: center;
+    margin-left: 6%;
 }
 
 li.linhas{
@@ -121,10 +131,10 @@ nav.menu-central ul li.linhas span{
     display: block;
     position: relative;
     overflow: hidden;
-    margin: 0;
+    margin-top: -30px;
     padding: 0;
-    width: 96px;
-    height: 96px;
+    width: 45px;
+    height: 45px;
     font-size: 0;
     text-indent: -9999px;
     -webkit-appearance: none;
@@ -145,11 +155,12 @@ nav.menu-central ul li.linhas span{
 .c-hamburger span {
     display: block;
     position: absolute;
-    top: 44px;
+    top: 27px;
     left: 18px;
     right: 18px;
-    height: 8px;
-    background: white;
+    height: 3px;
+    background: #535353;
+    width: 30px;
 }
 
 .c-hamburger span::before,
@@ -157,28 +168,29 @@ nav.menu-central ul li.linhas span{
     position: absolute;
     display: block;
     left: 0;
-    width: 100%;
-    height: 8px;
-    background-color: #fff;
+    height: 3px;
+    background: #535353;
     content: "";
+    width: 30px;
 }
 
 .c-hamburger span::before {
-    top: -20px;
+    top: -8px;
 }
 
 .c-hamburger span::after {
-    bottom: -20px;
+    bottom: -8px;
 }
 
 /*style*/
 .c-hamburger--htx {
-    background-color: #ff3264;
+    background-color:transparent;
+    margin-top: -50px;
 }
 
 .c-hamburger--htx span {
-    -webkit-transition: background 0s 0.3s;
-    transition: background 0s 0.3s;
+    -webkit-transition: background 0s 0.2s;
+    transition: background 0s 0.2s;
 }
 
 .c-hamburger--htx span::before,
@@ -201,14 +213,29 @@ nav.menu-central ul li.linhas span{
 
 /* active state, i.e. menu open */
 .c-hamburger--htx.is-active {
-    background-coeID>
-            <stRef:documentID>xmp.did:9ba8c42d-40a4-6742-a8d2-ea3aab057886</stRef:documentID>
-            <stRef:originalDocumentID>xmp.did:9ba8c42d-40a4-6742-a8d2-ea3aab057886</stRef:originalDocumentID>
-         </xmpMM:DerivedFrom>
-         <dc:format>image/png</dc:format>
-         <tiff:Orientation>1</tiff:Orientation>
-         <tiff:XResolution>720000/10000</tiff:XResolution>
-         <tiff:YResolution>720000/10000</tiff:YResolution>
-         <tiff:ResolutionUnit>2</tiff:ResolutionUnit>
-         <exif:ColorSpace>65535</exif:ColorSpace>
-         <exif:PixelXDimension>47
+    background-color: transparent;
+}
+
+.c-hamburger--htx.is-active span {
+    background: none;
+}
+
+.c-hamburger--htx.is-active span::before {
+    top: 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.c-hamburger--htx.is-active span::after {
+    bottom: 0;
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+.c-hamburger--htx.is-active span::before,
+.c-hamburger--htx.is-active span::after {
+    -webkit-transition-delay: 0s, 0.3s;
+    transition-delay: 0s, 0.3s;
+}
