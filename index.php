@@ -76,15 +76,6 @@
 
         <div id="areaDoCliente">
             <a id="cliente" href=""><p>Área do Cliente</p>&nbsp;<i id="off" class="fa fa-power-off" aria-hidden="true"></i></a>
-            <main class="o-content">
-                <div class="o-container">
-                    <div class="o-grid__item">
-                        <button class="c-hamburger c-hamburger--htx">
-                            <span>toggle menu</span>
-                        </button>
-                    </div>
-                </div>
-            </main>
         </div>
 
     </div>
@@ -205,14 +196,36 @@
 
     <div id="bloco4" class="col-lg-12">
         <h1 id="title">O que dizem nossos Clientes</h1>
-        
-        <div class="col-lg-4">
-            <img class="perfil" src="img/6731393.jpg" alt="">
-            <p>“Lorem ipsum dolor sit amet, augue vulputate ullamcorper ac, sagittis nunc tempor. Etiam erat suspendisse quis ante, euismod amet lacus ultricies. Faucibus egestas et ut nulla, egestas massa faucibus, proident quis, euismod ullamcorper wisi urna ac, enim nisl dignissim tellus magna vitae aliquam.”</p>
-        </div>
+        <div id="clientes">
+            <div class="col-lg-3 cliente">
+                <img class="perfil" src="img/6731393.jpg" alt="">
+                <p class="textoPerfil">“Lorem ipsum dolor sit amet, augue vulputate ullamcorper ac, sagittis nunc tempor. Etiam erat suspendisse quis ante, euismod amet lacus ultricies. Faucibus egestas et ut nulla, egestas massa faucibus, proident quis, euismod ullamcorper wisi urna ac, enim nisl dignissim tellus magna vitae aliquam.”</p>
+            </div>
+
+            <div class="col-lg-3 cliente">
+                <img class="perfil" src="img/10831429.jpg" alt="">
+                <p class="textoPerfil">“Lorem ipsum dolor sit amet, augue vulputate ullamcorper ac, sagittis nunc tempor. Etiam erat suspendisse quis ante, euismod amet lacus ultricies. Faucibus egestas et ut nulla, egestas massa faucibus, proident quis, euismod ullamcorper wisi urna ac, enim nisl dignissim tellus magna vitae aliquam.”</p>
+            </div>
+
+            <div class="col-lg-3 cliente">
+                <img class="perfil" src="img/11886402.jpg" alt="">
+                <p class="textoPerfil">“Lorem ipsum dolor sit amet, augue vulputate ullamcorper ac, sagittis nunc tempor. Etiam erat suspendisse quis ante, euismod amet lacus ultricies. Faucibus egestas et ut nulla, egestas massa faucibus, proident quis, euismod ullamcorper wisi urna ac, enim nisl dignissim tellus magna vitae aliquam.”</p>
+            </div>
+       </div>
         
     </div>
 
+
+    <div class="col-lg-12" id="bloco5">
+        <div id="rodape">
+            <a href="http://www.aquilink.com.br" id="logoRodape"></a>
+
+            <div id="contato">
+                <p>&copy;Copyright Aquilink <?php echo date('Y')?>. Todos os direitos reservados.</p>
+                <p>E. L. de Alencar Manutencao - ME - CNPJ: 17.405.720/0001-30</p>
+            </div>
+        </div>
+    </div>
 
     <script>
         (function() {

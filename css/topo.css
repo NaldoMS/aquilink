@@ -250,9 +250,60 @@ img.perfil{
     height: 150px;
     position: relative;
     margin: 0 auto;
-    display: block
+    margin-top: 8%;
+    display: block;
+    border: 2px solid #BFBFBF;
 }
 
+div.cliente{
+    margin: 5% 5px 5px 5px;
+    background-color: #fff;
+    width: 30%;
+}
+
+
+div#clientes{
+    display: block;
+    position: relative;
+    margin: 0 auto;
+}
+
+div#bloco4{
+    background-color: #EDEDED;
+}
+
+div#bloco5{
+    background-color: #000;
+    height: 150px;
+}
+
+p.textoPerfil{
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    padding-top: 5%;
+    width: 300px;
+}
+
+a#logoRodape{
+    display: block;
+    position: absolute;
+    width: 25%;
+    margin-top: 1%;
+    min-width: 180px !important;
+    left: 25px;
+    height: 100%;
+    background: url(../img/logo2.png) no-repeat;
+    background-size: 80% auto;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+div#rodape{
+    display: inline-flex;
+}
 div#menu nav.menu-central ul li:nth-child(1) span{
     background-image: url(../img/home.png);
 }
@@ -310,117 +361,4 @@ nav.menu-central ul li.linhas span{
     -moz-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
     transition: all 0.5s ease;
-}
-
-.c-hamburger {
-    display: block;
-    position: relative;
-    overflow: hidden;
-    margin-top: -30px;
-    padding: 0;
-    width: 45px;
-    height: 45px;
-    font-size: 0;
-    text-indent: -9999px;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-    box-shadow: none;
-    border-radius: none;
-    border: none;
-    cursor: pointer;
-    -webkit-transition: background 0.3s;
-    transition: background 0.3s;
-}
-
-.c-hamburger:focus {
-    outline: none;
-}
-
-.c-hamburger span {
-    display: block;
-    position: absolute;
-    top: 27px;
-    left: 18px;
-    right: 18px;
-    height: 3px;
-    background: #535353;
-    width: 30px;
-}
-
-.c-hamburger span::before,
-.c-hamburger span::after {
-    position: absolute;
-    display: block;
-    left: 0;
-    height: 3px;
-    background: #535353;
-    content: "";
-    width: 30px;
-}
-
-.c-hamburger span::before {
-    top: -8px;
-}
-
-.c-hamburger span::after {
-    bottom: -8px;
-}
-
-/*style*/
-.c-hamburger--htx {
-    background-color:transparent;
-    margin-top: -50px;
-}
-
-.c-hamburger--htx span {
-    -webkit-transition: background 0s 0.2s;
-    transition: background 0s 0.2s;
-}
-
-.c-hamburger--htx span::before,
-.c-hamburger--htx span::after {
-    -webkit-transition-duration: 0.3s, 0.3s;
-    transition-duration: 0.3s, 0.3s;
-    -webkit-transition-delay: 0.3s, 0s;
-    transition-delay: 0.3s, 0s;
-}
-
-.c-hamburger--htx span::before {
-    -webkit-transition-property: top, -webkit-transform;
-    transition-property: top, transform;
-}
-
-.c-hamburger--htx span::after {
-    -webkit-transition-property: bottom, -webkit-transform;
-    transition-property: bottom, transform;
-}
-
-/* active state, i.e. menu open */
-.c-hamburger--htx.is-active {
-    background-color: transparent;
-}
-
-.c-hamburger--htx.is-active span {
-    background: none;
-}
-
-.c-hamburger--htx.is-active span::before {
-    top: 0;
-    -webkit-transform: rotate(45deg);
-    -ms-transform: rotate(45deg);
-    transform: rotate(45deg);
-}
-
-.c-hamburger--htx.is-active span::after {
-    bottom: 0;
-    -webkit-transform: rotate(-45deg);
-    -ms-transform: rotate(-45deg);
-    transform: rotate(-45deg);
-}
-
-.c-hamburger--htx.is-active span::before,
-.c-hamburger--htx.is-active span::after {
-    -webkit-transition-delay: 0s, 0.3s;
-    transition-delay: 0s, 0.3s;
 }

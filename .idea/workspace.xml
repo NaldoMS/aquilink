@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c78993a-e7e5-452f-a2ce-2804c7adf389" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/topo.css" afterPath="$PROJECT_DIR$/css/topo.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
@@ -31,8 +30,14 @@
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="475">
-              <caret line="210" column="21" selection-start-line="210" selection-start-column="21" selection-end-line="210" selection-end-column="21" />
-              <folding />
+              <caret line="201" column="38" selection-start-line="201" selection-start-column="38" selection-end-line="201" selection-end-column="38" />
+              <folding>
+                <marker date="1468857724299" expanded="true" signature="8662:8698" ph="..." />
+                <marker date="1468857724299" expanded="true" signature="8662:9291" ph="..." />
+                <marker date="1468857724299" expanded="true" signature="8842:8937" ph="{...}" />
+                <marker date="1468857724299" expanded="true" signature="8983:9262" ph="{...}" />
+                <marker date="1468857724299" expanded="true" signature="9047:9246" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -40,8 +45,8 @@
       <file leaf-file-name="topo.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/topo.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="526">
-              <caret line="252" column="18" selection-start-line="252" selection-start-column="18" selection-end-line="252" selection-end-column="18" />
+            <state relative-caret-position="442">
+              <caret line="266" column="23" selection-start-line="266" selection-start-column="23" selection-end-line="266" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -122,7 +127,6 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -171,6 +175,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -192,6 +197,12 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -218,14 +229,15 @@
       <workItem from="1466422378432" duration="2061000" />
       <workItem from="1466428606544" duration="998000" />
       <workItem from="1467908839370" duration="13231000" />
+      <workItem from="1468838273937" duration="4918000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16290000" />
+    <option name="totallyTimeSpent" value="21208000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1928" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-1928" y="-8" width="1936" height="1056" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15104167" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -265,9 +277,53 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3570">
+          <caret line="210" column="21" selection-start-line="210" selection-start-column="21" selection-end-line="210" selection-end-column="21" />
+          <folding>
+            <marker date="1468857724299" expanded="true" signature="8662:8698" ph="..." />
+            <marker date="1468857724299" expanded="true" signature="8662:9291" ph="..." />
+            <marker date="1468857724299" expanded="true" signature="8842:8937" ph="{...}" />
+            <marker date="1468857724299" expanded="true" signature="8983:9262" ph="{...}" />
+            <marker date="1468857724299" expanded="true" signature="9047:9246" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/topo.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/carrousel.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/estilos.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1468857724299" expanded="true" signature="8662:8698" ph="..." />
+            <marker date="1468857724299" expanded="true" signature="8662:9291" ph="..." />
+            <marker date="1468857724299" expanded="true" signature="8842:8937" ph="{...}" />
+            <marker date="1468857724299" expanded="true" signature="8983:9262" ph="{...}" />
+            <marker date="1468857724299" expanded="true" signature="9047:9246" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -299,7 +355,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1173">
           <caret line="69" column="31" selection-start-line="69" selection-start-column="31" selection-end-line="69" selection-end-column="31" />
-          <folding />
+          <folding>
+            <marker date="1468857724299" expanded="true" signature="8662:8698" ph="..." />
+            <marker date="1468857724299" expanded="true" signature="8662:9291" ph="..." />
+            <marker date="1468857724299" expanded="true" signature="8842:8937" ph="{...}" />
+            <marker date="1468857724299" expanded="true" signature="8983:9262" ph="{...}" />
+            <marker date="1468857724299" expanded="true" signature="9047:9246" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -341,20 +403,31 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/cadastro-20162.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="475">
-          <caret line="210" column="21" selection-start-line="210" selection-start-column="21" selection-end-line="210" selection-end-column="21" />
-          <folding />
+          <caret line="201" column="38" selection-start-line="201" selection-start-column="38" selection-end-line="201" selection-end-column="38" />
+          <folding>
+            <marker date="1468857724299" expanded="true" signature="8662:8698" ph="..." />
+            <marker date="1468857724299" expanded="true" signature="8662:9291" ph="..." />
+            <marker date="1468857724299" expanded="true" signature="8842:8937" ph="{...}" />
+            <marker date="1468857724299" expanded="true" signature="8983:9262" ph="{...}" />
+            <marker date="1468857724299" expanded="true" signature="9047:9246" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/topo.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="526">
-          <caret line="252" column="18" selection-start-line="252" selection-start-column="18" selection-end-line="252" selection-end-column="18" />
+        <state relative-caret-position="442">
+          <caret line="266" column="23" selection-start-line="266" selection-start-column="23" selection-end-line="266" selection-end-column="23" />
           <folding />
         </state>
       </provider>
