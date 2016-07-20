@@ -261,6 +261,13 @@ div.cliente{
     width: 30%;
 }
 
+div#contato{
+    color: #fff;
+}
+
+div#textoRodape{
+    margin-top: 5%;
+}
 
 div#clientes{
     display: block;
@@ -275,6 +282,7 @@ div#bloco4{
 div#bloco5{
     background-color: #000;
     height: 150px;
+    display: inline-flex;
 }
 
 p.textoPerfil{
@@ -288,10 +296,10 @@ p.textoPerfil{
 a#logoRodape{
     display: block;
     position: absolute;
-    width: 25%;
-    margin-top: 1%;
+    width: 50%;
+    margin-top: 1.5%;
     min-width: 180px !important;
-    left: 25px;
+    left: 50%;
     height: 100%;
     background: url(../img/logo2.png) no-repeat;
     background-size: 80% auto;
@@ -301,9 +309,6 @@ a#logoRodape{
     transition: all 0.5s ease;
 }
 
-div#rodape{
-    display: inline-flex;
-}
 div#menu nav.menu-central ul li:nth-child(1) span{
     background-image: url(../img/home.png);
 }

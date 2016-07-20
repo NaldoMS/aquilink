@@ -217,37 +217,18 @@
 
 
     <div class="col-lg-12" id="bloco5">
-        <div id="rodape">
+        <div class="col-lg-6" id="Logorodape">
             <a href="http://www.aquilink.com.br" id="logoRodape"></a>
+        </div>
 
-            <div id="contato">
+        <div class="col-lg-6" id="contato">
+            <div id="textoRodape">
                 <p>&copy;Copyright Aquilink <?php echo date('Y')?>. Todos os direitos reservados.</p>
                 <p>E. L. de Alencar Manutencao - ME - CNPJ: 17.405.720/0001-30</p>
             </div>
         </div>
     </div>
 
-    <script>
-        (function() {
 
-            "use strict";
-
-            var toggles = document.querySelectorAll(".c-hamburger");
-
-            for (var i = toggles.length - 1; i >= 0; i--) {
-                var toggle = toggles[i];
-                toggleHandler(toggle);
-            };
-
-            function toggleHandler(toggle) {
-                toggle.addEventListener( "click", function(e) {
-                    e.preventDefault();
-                    (this.classList.contains("is-active") === true) ? this.classList.remove("is-active") : this.classList.add("is-active");
-                });
-            }
-
-        })();
-
-    </script>
 </body>
 </html>
