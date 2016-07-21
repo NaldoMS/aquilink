@@ -1,9 +1,6 @@
 *{
     margin:0;
-}
-
-main.o-content{
-    display: block;
+    padding: 0;
 }
 
 div#menu {
@@ -20,6 +17,11 @@ div#menu {
     transition: all 0.5s ease;
 }
 
+div.rolling{
+    box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.1);
+    -moz-box-shadow:  0 3px 5px 0 rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow:  0 3px 5px 0 rgba(0, 0, 0, 0.1);
+}
 
 div#areaDoCliente{
     display: -webkit-inline-box;
@@ -36,10 +38,10 @@ div#areaDoCliente{
 a#logo{
     display: block;
     position: absolute;
-    width: 25%;
+    width: 22%;
     margin-top: 1%;
     min-width: 180px !important;
-    left: 25px;
+    left: 4%;
     height: 100%;
     background: url(../img/logo2.png) no-repeat;
     background-size: 80% auto;
@@ -98,9 +100,9 @@ div#opcoes{
     display: inline-flex;
 }
 
-img#wifi{
-    width: 40%;
-    margin: 3%;
+img#wifi {
+    width: 47%;
+    margin: 6% 0 4% 0;
 }
 
 p#teste{
@@ -115,8 +117,8 @@ img#divisoria{
 div.opc {
     background-color: #fff;
     width: 20%;
-    margin: 7% 5% 0% 6%;
-    height: 440px;
+    margin: 7% 5% 0 6%;
+    height: 410px
 }
 
 div#conteudo{
@@ -127,7 +129,7 @@ img#assine{
     display: block;
     float: none;
     margin: 0 auto;
-    padding-top: 24%;
+    padding-top: 15%;
 }
 
 p.title{
@@ -148,6 +150,8 @@ button.btn{
     margin-top: 15%;
     margin-bottom: 15%;
     background-color: #1B71B8;
+    padding: 8px 15px 8px 15px;
+
 }
 
 div#bloco2{
@@ -198,22 +202,36 @@ div#bloco3{
 }
 div.conteudo{
     width: 70%;
+    height: 100%;
     margin: 0 auto;
     text-align: center;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+
+}
+
+div.conteudo:hover{
+    margin-top: -15px;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
 }
 
 div.azulF{
     margin: 0;
     padding: 0;
     background-color: #324E74;
-    height: 550px;
+    height: 590px;
 }
 
 div.azulFr{
     margin: 0;
     padding: 0;
     background-color: #365985;
-    height: 550px;
+    height: 590px;
 }
 
 h1{
@@ -222,10 +240,11 @@ h1{
 
 p.legenda{
     color: #fff;
-    width: 276px;
+    width: 85%;
     font-size: 18px;
     margin: 0 auto;
-    text-align: left
+    text-align: left;
+    padding-left: 2%;
 }
 
 img.imgs{
@@ -240,7 +259,7 @@ div#bloco4{
 h1#title{
     color: #2B79BB;
     margin: 0 auto;
-    padding-top: 4%;
+    padding-top: 3%;
     width: 480px;
 }
 
@@ -252,13 +271,17 @@ img.perfil{
     margin: 0 auto;
     margin-top: 8%;
     display: block;
-    border: 2px solid #BFBFBF;
+    border: 4px solid #bebebe
 }
 
 div.cliente{
-    margin: 5% 5px 5px 5px;
+    margin: 3% 2% 3% 1.2%;
     background-color: #fff;
     width: 30%;
+}
+
+div.cliente:hover{
+
 }
 
 div#contato{
@@ -272,7 +295,8 @@ div#textoRodape{
 div#clientes{
     display: block;
     position: relative;
-    margin: 0 auto;
+    padding-left: 2%;
+    margin: 0;
 }
 
 div#bloco4{
@@ -280,7 +304,7 @@ div#bloco4{
 }
 
 div#bloco5{
-    background-color: #000;
+    background-color: #0E0E0E;
     height: 150px;
     display: inline-flex;
 }
@@ -290,18 +314,28 @@ p.textoPerfil{
     position: relative;
     margin: 0 auto;
     padding-top: 5%;
-    width: 300px;
+    padding-bottom: 10%;
+    width: 325px;
+    font-size: 16px;
+}
+
+p.nome{
+    text-align: center;
+    color: #4470b4;
+    font-weight: 500;
+    font-size: 18px;
+    padding-bottom: 3%;
 }
 
 a#logoRodape{
     display: block;
     position: absolute;
-    width: 50%;
-    margin-top: 1.5%;
+    width: 45%;
+    margin-top: 2.5%;
     min-width: 180px !important;
     left: 50%;
-    height: 100%;
-    background: url(../img/logo2.png) no-repeat;
+    height: 83%;
+    background: url(../img/logoRodape.png) no-repeat;
     background-size: 80% auto;
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
@@ -340,6 +374,10 @@ div#menu nav.menu-central{
 
 li.linhas{
     position: relative;
+}
+
+nav.menu-central ul li a:hover {
+    color: #1B71B8;
 }
 
 li{

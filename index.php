@@ -87,7 +87,11 @@
         <!-- Wrapper for slides -->
         <div class="carousel-inner" role="listbox">
             <div class="item active">
-                <img src="img/banner1.jpg" alt="Chania">
+                <img src="img/banner1.jpg" alt="">
+            </div>
+
+            <div class="item">
+                <img src="img/banner2.jpg" alt="Chania">
             </div>
         </div>
 
@@ -169,47 +173,56 @@
     </div>
 
     <div id="bloco3" class="col-lg-12">
-        <div class="col-lg-4 azulF">
-            <div class="conteudo">
-                <img class="imgs" src="img/internetDedicada.png" alt="">
-                <h1>Internet Dedicada</h1>
-                <p class="legenda">Link com internet confiável e garantida para suas necessidades pessoais ou empresariais</p>
+        <a href="">
+            <div class="col-lg-4 azulF">
+                <div class="conteudo">
+                    <img class="imgs" src="img/internetDedicada.png" alt="">
+                    <h1>Internet Dedicada</h1>
+                    <p class="legenda">Link com internet confiável e garantida para suas necessidades pessoais ou empresariais</p>
+                </div>
             </div>
-        </div>
+        </a>
 
-        <div class="col-lg-4 azulFr">
-            <div class="conteudo">
-                <img class="imgs" src="img/bandaLarga.png" alt="">
-                <h1>Banda Larga</h1>
-                <p class="legenda">Internet para empresas, residências e condomínios com opções de ultra velocidade. Tenha liberdade para usar a internet como quiser. Nós realmente entregamos a velocidade contratada.</p>
+        <a href="">
+            <div class="col-lg-4 azulFr">
+                <div class="conteudo">
+                    <img class="imgs" src="img/bandaLarga.png" alt="">
+                    <h1>Banda Larga</h1>
+                    <p class="legenda">Internet para empresas, residências e condomínios com opções de ultra velocidade. Tenha liberdade para usar a internet como quiser. Nós realmente entregamos a velocidade contratada.</p>
+                </div>
             </div>
-        </div>
+        </a>
 
-        <div class="col-lg-4 azulF">
-            <div class="conteudo">
-                <img class="imgs" src="img/projetosEspeciais.png" alt="">
-                <h1>Projetos Esoeciais</h1>
-                <p class="legenda">Além dos planos existentes, desenvolvemos a solução que você precisa, de acordo com suas necessidades. Consulte..</p>
+        <a href="">
+            <div class="col-lg-4 azulF">
+                <div class="conteudo">
+                    <img class="imgs" src="img/projetosEspeciais.png" alt="">
+                    <h1>Projetos Especiais</h1>
+                    <p class="legenda">Além dos planos existentes, desenvolvemos a solução que você precisa, de acordo com suas necessidades. Consulte..</p>
+                </div>
             </div>
-        </div>
+        </a>
     </div>
 
     <div id="bloco4" class="col-lg-12">
         <h1 id="title">O que dizem nossos Clientes</h1>
-        <div id="clientes">
+        <div class="col-lg-12" id="clientes">
             <div class="col-lg-3 cliente">
                 <img class="perfil" src="img/6731393.jpg" alt="">
                 <p class="textoPerfil">“Lorem ipsum dolor sit amet, augue vulputate ullamcorper ac, sagittis nunc tempor. Etiam erat suspendisse quis ante, euismod amet lacus ultricies. Faucibus egestas et ut nulla, egestas massa faucibus, proident quis, euismod ullamcorper wisi urna ac, enim nisl dignissim tellus magna vitae aliquam.”</p>
+                <p class="nome">Josinaldo Da Silva Batista</p>
             </div>
 
             <div class="col-lg-3 cliente">
                 <img class="perfil" src="img/10831429.jpg" alt="">
                 <p class="textoPerfil">“Lorem ipsum dolor sit amet, augue vulputate ullamcorper ac, sagittis nunc tempor. Etiam erat suspendisse quis ante, euismod amet lacus ultricies. Faucibus egestas et ut nulla, egestas massa faucibus, proident quis, euismod ullamcorper wisi urna ac, enim nisl dignissim tellus magna vitae aliquam.”</p>
+                <p class="nome">Maria Giselly Rebouças Azevedo</p>
             </div>
 
             <div class="col-lg-3 cliente">
                 <img class="perfil" src="img/11886402.jpg" alt="">
                 <p class="textoPerfil">“Lorem ipsum dolor sit amet, augue vulputate ullamcorper ac, sagittis nunc tempor. Etiam erat suspendisse quis ante, euismod amet lacus ultricies. Faucibus egestas et ut nulla, egestas massa faucibus, proident quis, euismod ullamcorper wisi urna ac, enim nisl dignissim tellus magna vitae aliquam.”</p>
+                <p class="nome">Ruan Nicolas Da Silva Matos</p>
             </div>
        </div>
         
@@ -224,7 +237,7 @@
         <div class="col-lg-6" id="contato">
             <div id="textoRodape">
                 <p>&copy;Copyright Aquilink <?php echo date('Y')?>. Todos os direitos reservados.</p>
-                <p>E. L. de Alencar Manutencao - ME - CNPJ: 17.405.720/0001-30</p>
+                <p>E. L. de Alencar Manutenção - ME - CNPJ: 17.405.720/0001-30</p>
             </div>
         </div>
     </div>
