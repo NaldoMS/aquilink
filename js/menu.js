@@ -21,9 +21,11 @@
 $(function() {
     $(window).on("scroll", function() {
         if($(window).scrollTop() > 50) {
-            document.getElementById('menu').style.backgroundColor = '#fff'
+            document.getElementById('menu').style.backgroundColor = '#fff';
+            $('#menu').addClass('rolling');
         } else {
-            document.getElementById('menu').style.backgroundColor = 'transparent'
+            document.getElementById('menu').style.backgroundColor = 'transparent';
+            $('#menu').removeClass('rolling');
         }
     });
 });
