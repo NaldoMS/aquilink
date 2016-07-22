@@ -10,16 +10,19 @@
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/carrousel.css">
     <link rel="stylesheet" href="css/topo.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/rodape.css">
 
     <script type="text/javascript" src="js/jquery.js"></script>
     <script type="text/javascript" src="js/menu.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
 
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon2.ico">
 
     <title>Aquilink</title>
 </head>
 <body>
-    <div id="menu" class="menu">
+ <div id="menu" class="menu">
         <a href="http://www.aquilink.com.br" id="logo"></a>
 
         <nav class="menu-central">
@@ -74,8 +77,50 @@
             </ul>
         </nav>
 
+     <div id="wrapper" class="toggled">
+
+         <!-- Sidebar -->
+         <div id="sidebar-wrapper">
+             <ul class="sidebar-nav">
+                 <li>
+                     <a href="#">Dashboard</a>
+                 </li>
+                 <li>
+                     <a href="#">Shortcuts</a>
+                 </li>
+                 <li>
+                     <a href="#">Overview</a>
+                 </li>
+                 <li>
+                     <a href="#">Events</a>
+                 </li>
+                 <li>
+                     <a href="#">About</a>
+                 </li>
+                 <li>
+                     <a href="#">Services</a>
+                 </li>
+                 <li>
+                     <a href="#">Contact</a>
+                 </li>
+             </ul>
+         </div>
+
+     </div>
+
         <div id="areaDoCliente">
+
             <a id="cliente" href=""><p>Área do Cliente</p>&nbsp;<i id="off" class="fa fa-power-off" aria-hidden="true"></i></a>
+            <main class="o-content">
+                <div class="o-container">
+                    <div class="o-grid__item">
+                        <button id="menu-toggle" class="c-hamburger c-hamburger--htx">
+                            <span>toggle menu</span>
+                        </button>
+                    </div>
+                </div>
+            </main>
+
         </div>
 
     </div>
@@ -241,7 +286,33 @@
             </div>
         </div>
     </div>
+<script>
+    (function() {
 
+        "use strict";
+
+        var toggles = document.querySelectorAll(".c-hamburger");
+
+        for (var i = toggles.length - 1; i >= 0; i--) {
+            var toggle = toggles[i];
+            toggleHandler(toggle);
+        };
+
+        function toggleHandler(toggle) {
+            toggle.addEventListener( "click", function(e) {
+                e.preventDefault();
+                (this.classList.contains("is-active") === true) ? this.classList.remove("is-active") : this.classList.add("is-active");
+            });
+        }
+
+    })();
+
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+    });
+
+</script>
 
 </body>
 </html>

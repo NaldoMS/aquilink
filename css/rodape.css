@@ -1,0 +1,25 @@
+div#textoRodape{
+    margin-top: 5%;
+}
+
+div#bloco5{
+    background-color: #0E0E0E;
+    height: 150px;
+    display: inline-flex;
+}
+
+a#logoRodape{
+    display: block;
+    position: absolute;
+    width: 45%;
+    margin-top: 2.5%;
+    min-width: 180px !important;
+    left: 50%;
+    height: 83%;
+    background: url(../img/logoRodape.png) no-repeat;
+    background-size: 80% auto;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
