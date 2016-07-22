@@ -26,7 +26,7 @@ div.rolling{
 div#areaDoCliente{
     display: -webkit-inline-box;
     margin-right: 3%;
-    padding: 5px 0px;
+    padding: 5px 0;
     position: absolute;
     right: 10px;
     top: 50px;
@@ -278,10 +278,6 @@ div.cliente{
     margin: 3% 2% 3% 1.2%;
     background-color: #fff;
     width: 30%;
-}
-
-div.cliente:hover{
-
 }
 
 div#contato{
