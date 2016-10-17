@@ -92,7 +92,8 @@ div.rolling{
 }
 
 div#areaDoCliente{
-    display: -webkit-inline-box;
+    display: inline-block;
+    width: 125px;
     margin-right: 3%;
     padding: 5px 0;
     position: absolute;
@@ -123,9 +124,11 @@ img#logoImg{
     width: 100%;
 }
 
-i#off{
+i#off {
     font-weight: 800;
     font-size: 20px;
+    float: right;
+    margin-top: -23%;
 }
 
 a#cliente{
@@ -331,6 +334,10 @@ a#cliente{
 .sidebar-nav > .sidebar-brand a:hover {
     color: #fff;
     background: none;
+}
+
+button#menu-toggle{
+    display: none;
 }
 
 @media(min-width:768px) {

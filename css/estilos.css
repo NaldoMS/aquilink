@@ -98,11 +98,11 @@ div.box{
     display: -webkit-box;
     width: 340px;
     margin: 0 auto;
-    padding-bottom: 12%;
+    padding-bottom: 0;
 }
 
 div.first{
-    padding-top: 8%;
+    padding-top: 2%;
 }
 
 div.last{
@@ -117,9 +117,8 @@ a.linkLaranja{
 }
 
 p.lengenda{
-    width: 180px;
-    padding-left: 10%;
-    padding-top: 26%;
+    width: 260px;
+    padding-left: 0;
     font-size: 25px
 }
 
